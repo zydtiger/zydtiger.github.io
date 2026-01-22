@@ -1,3 +1,303 @@
-<body>
-  Hello, World!
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zydtiger | Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navigation / Header (Minimal) -->
+    <nav class="navbar">
+      <div class="container">
+        <span class="logo">&lt;zydtiger /&gt;</span>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="section scroll-reveal">
+      <div class="container hero-content">
+        <div class="profile-frame">
+          <img src="assets/headshot.jpg" alt="Profile" class="profile-pic" />
+        </div>
+        <h1 class="code-title"><span class="prompt">$</span> who_am_i</h1>
+        <p class="bio">
+          // Biomedical Engineer specializing in medical ML/AI applications.<br />
+          // Experience with semantic segmentation in medical CV.<br />
+          // Full-stack Engineer specializing in Creative UI/UX.<br />
+        </p>
+        <a href="https://linkedin.com/in/tigerding" target="_blank" class="btn-terminal">
+          <span class="cmd">connect</span> --network linkedin
+        </a>
+      </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="code-title scroll-reveal"><span class="prompt">$</span> project_highlights</h2>
+
+        <div class="projects-grid">
+          <!-- Project Card 1 -->
+          <article class="project-card scroll-reveal">
+            <div class="slider" id="slider-1">
+              <div class="slides-container">
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/e2e8f0/1e293b?text=Project+1+View+A"
+                    alt="Project 1 A"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/cbd5e1/1e293b?text=Project+1+View+B"
+                    alt="Project 1 B"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/94a3b8/1e293b?text=Project+1+View+C"
+                    alt="Project 1 C"
+                  />
+                </div>
+              </div>
+              <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1, 'slider-1')"></span>
+                <span class="dot" onclick="currentSlide(2, 'slider-1')"></span>
+                <span class="dot" onclick="currentSlide(3, 'slider-1')"></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h3>knowledge_tree_tauri_app</h3>
+              <p>
+                A comprehensive analytics dashboard for online retailers. Features real-time data
+                visualization and inventory management.
+              </p>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">D3.js</span>
+                <span class="tag">Node.js</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card scroll-reveal">
+            <div class="slider" id="slider-2">
+              <div class="slides-container">
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/e2e8f0/1e293b?text=Project+2+Main"
+                    alt="Project 2 A"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/cbd5e1/1e293b?text=Project+2+Detail"
+                    alt="Project 2 B"
+                  />
+                </div>
+              </div>
+              <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1, 'slider-2')"></span>
+                <span class="dot" onclick="currentSlide(2, 'slider-2')"></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h3>music_player_electron_app</h3>
+              <p>
+                Interactive tool to map and explore social network connections using force-directed
+                graphs.
+              </p>
+              <div class="tags">
+                <span class="tag">Vue.js</span>
+                <span class="tag">WebGL</span>
+                <span class="tag">GraphQL</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="project-card scroll-reveal">
+            <div class="slider" id="slider-3">
+              <div class="slides-container">
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/e2e8f0/1e293b?text=Project+3+Mobile"
+                    alt="Project 3 A"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/cbd5e1/1e293b?text=Project+3+Desktop"
+                    alt="Project 3 B"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/94a3b8/1e293b?text=Project+3+Dark"
+                    alt="Project 3 C"
+                  />
+                </div>
+              </div>
+              <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1, 'slider-3')"></span>
+                <span class="dot" onclick="currentSlide(2, 'slider-3')"></span>
+                <span class="dot" onclick="currentSlide(3, 'slider-3')"></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h3>segmentation_medical_ai</h3>
+              <!-- This project is still in progress and cannot be disclosed -->
+              <p>
+                A Rust-based CLI tool to automate repetitive development workflows and scaffold
+                microservices.
+              </p>
+              <div class="tags">
+                <span class="tag">Rust</span>
+                <span class="tag">Tokio</span>
+                <span class="tag">Clap</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card scroll-reveal">
+            <div class="slider" id="slider-3">
+              <div class="slides-container">
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/e2e8f0/1e293b?text=Project+3+Mobile"
+                    alt="Project 3 A"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/cbd5e1/1e293b?text=Project+3+Desktop"
+                    alt="Project 3 B"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/94a3b8/1e293b?text=Project+3+Dark"
+                    alt="Project 3 C"
+                  />
+                </div>
+              </div>
+              <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1, 'slider-3')"></span>
+                <span class="dot" onclick="currentSlide(2, 'slider-3')"></span>
+                <span class="dot" onclick="currentSlide(3, 'slider-3')"></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h3>segmentation_medical_ai</h3>
+              <!-- This project is still in progress and cannot be disclosed -->
+              <p>
+                A Rust-based CLI tool to automate repetitive development workflows and scaffold
+                microservices.
+              </p>
+              <div class="tags">
+                <span class="tag">Rust</span>
+                <span class="tag">Tokio</span>
+                <span class="tag">Clap</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card scroll-reveal">
+            <div class="slider" id="slider-3">
+              <div class="slides-container">
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/e2e8f0/1e293b?text=Project+3+Mobile"
+                    alt="Project 3 A"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/cbd5e1/1e293b?text=Project+3+Desktop"
+                    alt="Project 3 B"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/94a3b8/1e293b?text=Project+3+Dark"
+                    alt="Project 3 C"
+                  />
+                </div>
+              </div>
+              <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1, 'slider-3')"></span>
+                <span class="dot" onclick="currentSlide(2, 'slider-3')"></span>
+                <span class="dot" onclick="currentSlide(3, 'slider-3')"></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h3>segmentation_medical_ai</h3>
+              <!-- This project is still in progress and cannot be disclosed -->
+              <p>
+                A Rust-based CLI tool to automate repetitive development workflows and scaffold
+                microservices.
+              </p>
+              <div class="tags">
+                <span class="tag">Rust</span>
+                <span class="tag">Tokio</span>
+                <span class="tag">Clap</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card scroll-reveal">
+            <div class="slider" id="slider-3">
+              <div class="slides-container">
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/e2e8f0/1e293b?text=Project+3+Mobile"
+                    alt="Project 3 A"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/cbd5e1/1e293b?text=Project+3+Desktop"
+                    alt="Project 3 B"
+                  />
+                </div>
+                <div class="slide fade">
+                  <img
+                    src="https://placehold.co/600x300/94a3b8/1e293b?text=Project+3+Dark"
+                    alt="Project 3 C"
+                  />
+                </div>
+              </div>
+              <div class="dots-container">
+                <span class="dot" onclick="currentSlide(1, 'slider-3')"></span>
+                <span class="dot" onclick="currentSlide(2, 'slider-3')"></span>
+                <span class="dot" onclick="currentSlide(3, 'slider-3')"></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <h3>segmentation_medical_ai</h3>
+              <p>
+                A Rust-based CLI tool to automate repetitive development workflows and scaffold
+                microservices.
+              </p>
+              <div class="tags">
+                <span class="tag">Rust</span>
+                <span class="tag">Tokio</span>
+                <span class="tag">Clap</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 zydtiger. Built with &lt;3 and Code.</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
