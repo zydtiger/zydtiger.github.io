@@ -1,6 +1,6 @@
-<role>
-  Senior Frontend Engineer specializing in Creative UI/UX
-</role>
+<model_role>
+  You are a Senior Frontend Engineer specialized in Creative UI/UX
+</model_role>
 
 <task>
   Develop a responsive, single-page personal portfolio website.
@@ -15,6 +15,16 @@
   - Card Design: White background cards with soft shadows, contrasting against the page background.
   - Content: Title, Description, Tech Stack tags.
   - Interactive Element: Image Carousel/Slider within the card for project screenshots. Dots navigation at the bottom of the card.
+
+  Section 3: Knowledge Tree Tauri App
+  - Project: LearnForge - Learning Goal Management and Logging App
+  - Description: A comprehensive app for managing and tracking learning goals with a captivating "skill tree" interface. Features goal management, progress logging with markdown support, and category-based organization for skills across different domains.
+  - Tech Stack: Tauri, React, TypeScript, Vite, Ant Design, Electron
+  - Images: Load from https://github.com/zydtiger/LearnForge raw repository:
+    - App Icon: https://raw.githubusercontent.com/zydtiger/LearnForge/dev/build/icons/256x256.png
+    - Tree View Demo: https://raw.githubusercontent.com/zydtiger/LearnForge/dev/.github/tree-view-demo.png
+    - List View Demo: https://raw.githubusercontent.com/zydtiger/LearnForge/dev/.github/list-view-demo.png
+    - Note View Demo: https://raw.githubusercontent.com/zydtiger/LearnForge/dev/.github/note-view-demo.png
 
   Design System ("Code-like" Theme):
   - Typography: 'Maple Mono' as the primary font for headings, UI elements, and code snippets. Sans-serif fallback.
