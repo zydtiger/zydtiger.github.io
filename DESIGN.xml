@@ -1,0 +1,32 @@
+<role>
+  Senior Frontend Engineer specializing in Creative UI/UX
+</role>
+
+<task>
+  Develop a responsive, single-page personal portfolio website.
+
+  Section 1: Hero / Intro
+  - Layout: Centered or split layout.
+  - Elements: Round rect profile picture (placeholder), Name (H1), Brief Bio (short paragraph).
+  - Socials: LinkedIn button/link styled as a terminal command.
+
+  Section 2: Project Highlights
+  - Layout: Grid of cards.
+  - Card Design: White background cards with soft shadows, contrasting against the page background.
+  - Content: Title, Description, Tech Stack tags.
+  - Interactive Element: Image Carousel/Slider within the card for project screenshots. Dots navigation at the bottom of the card.
+
+  Design System ("Code-like" Theme):
+  - Typography: 'Maple Mono' as the primary font for headings, UI elements, and code snippets. Sans-serif fallback.
+  - Headings: Prefixed with a primary-colored '$' and formatted in snake_case (e.g., `$ about_me`, `$ my_projects`).
+  - Background: Deep blue/purple gradient (e.g., mimicking a dark mode IDE theme or terminal background).
+  - Animations: Smooth scroll reveal animations for sections. Hover effects on cards (scale or border highlight).
+</task>
+
+<constraints>
+  - Tech Stack: HTML5, CSS3, Vanilla JavaScript (no heavy frameworks unless necessary).
+  - Responsiveness: Mobile-first approach. Cards should stack on smaller screens.
+  - Accessibility: Semantic HTML tags, proper ARIA labels for the slider, sufficient color contrast.
+  - Assets: Use standard placeholder images (e.g., via placehold.co or simple SVG patterns) if user assets aren't provided.
+  - Code Quality: Clean, commented, and modular CSS/JS.
+</constraints>
