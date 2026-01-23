@@ -20,6 +20,16 @@
     - Dot Indicators: 8px circles with blue theme (rgba(59, 130, 246, 0.4) background, blue border), active dot scales 1.5x with glow effect
     - Behavior: Wraps around (last slide → first, first → last)
 
+  Card 2: Male Incontinence Solution
+  - Project: Incontimend - Novel integrated solution for male incontinence.
+  - Description: Developed novel medical device for male stress urinary incontinence by partnering with clinicians and a local seamstress. Prototyping 5 pressure system designs with Fusion 360, testing 10+ fabrics including bamboo and spandex. Published patent review on Translational Andrology and Urology.
+  - Tech Stack: 3D Printing, Fusion 360, Fabric Prototyping, Patent Research, FDA Compliance
+  - Images:
+    - Design day poster: assets/dt/poster.png
+    - Team members professional photo: assets/dt/team.jpg
+    - Mosaic of team members: assets/dt/mosaic.png
+  - Link: https://pmc.ncbi.nlm.nih.gov/articles/PMC11399061/
+
   Card 3: B-Player
   - Project: B-Player - Desktop Music Player
   - Description: Music player based on Bilibili — A modern desktop music player with library management, playlist support, and seamless music importing from web sources
