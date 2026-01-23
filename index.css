@@ -230,17 +230,62 @@ h1, h2, h3 {
 
 .dot {
   cursor: pointer;
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
   margin: 0 4px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(59, 130, 246, 0.4);
+  border: 2px solid rgba(59, 130, 246, 0.5);
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.active, .dot:hover {
-  background-color: var(--primary);
+.dot:hover {
+  background-color: rgba(59, 130, 246, 0.7);
+  border-color: #3b82f6;
+  transform: scale(1.3);
+}
+
+.dot.active {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+}
+
+/* Arrow Buttons */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(15, 23, 42, 0.7);
+  color: #3b82f6;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+  user-select: none;
+}
+
+.slider-arrow:hover {
+  background: rgba(15, 23, 42, 0.9);
+  border-color: #3b82f6;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+.slider-arrow.prev {
+  left: 10px;
+}
+
+.slider-arrow.next {
+  right: 10px;
 }
 
 /* --- Scroll Reveal Animations --- */

@@ -40,6 +40,21 @@ window.currentSlide = function(n, sliderId) {
   showSlide(n, sliderId);
 };
 
+window.changeSlide = function(direction, sliderId) {
+  const currentSlide = sliderState[sliderId] || 1;
+  const slider = document.getElementById(sliderId);
+  if (!slider) return;
+
+  const slides = slider.getElementsByClassName("slide");
+  const totalSlides = slides.length;
+
+  let nextSlide = currentSlide + direction;
+  if (nextSlide > totalSlides) nextSlide = 1;
+  if (nextSlide < 1) nextSlide = totalSlides;
+
+  showSlide(nextSlide, sliderId);
+};
+
 function showSlide(n, sliderId) {
   const slider = document.getElementById(sliderId);
   if (!slider) return;
