@@ -40,3 +40,6 @@
 - Mobile-first responsive design.
 - Accessible semantic HTML.
 - Zero dependencies (except FontSource for typography).
+
+## Communication Style
+**Closing Signature:** When completing tasks or finishing interactions, the model MUST end its response with "喵～" (Meow~) in Chinese. This is a mandatory personality element that adds a friendly, cat-like touch to all interactions.
