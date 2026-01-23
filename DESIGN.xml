@@ -20,7 +20,14 @@
     - Dot Indicators: 8px circles with blue theme (rgba(59, 130, 246, 0.4) background, blue border), active dot scales 1.5x with glow effect
     - Behavior: Wraps around (last slide → first, first → last)
 
-  Section 3: Knowledge Tree Tauri App
+  Card 3: B-Player
+  - Project: B-Player - Desktop Music Player
+  - Description: Music player based on Bilibili — A modern desktop music player with library management, playlist support, and seamless music importing from web sources
+  - Tech Stack: Electron, React, TypeScript, Redux Toolkit, SQLite, yt-dlp, Tailwind CSS, Vite
+  - Images: Placeholder images (to be replaced with actual screenshots)
+  - Link: https://github.com/zydtiger/b-player
+
+  Card 4: Knowledge Tree Tauri App
   - Project: LearnForge - Learning Goal Management and Logging App
   - Description: A comprehensive app for managing and tracking learning goals with a captivating "skill tree" interface. Features goal management, progress logging with markdown support, and category-based organization for skills across different domains.
   - Tech Stack: Tauri, React, TypeScript, Vite, Ant Design, Electron
@@ -28,6 +35,7 @@
     - Tree View Demo: https://raw.githubusercontent.com/zydtiger/LearnForge/dev/.github/tree-view-demo.png
     - List View Demo: https://raw.githubusercontent.com/zydtiger/LearnForge/dev/.github/list-view-demo.png
     - Note View Demo: https://raw.githubusercontent.com/zydtiger/LearnForge/dev/.github/note-view-demo.png
+  - Link: https://github.com/zydtiger/LearnForge
 
   Design System ("Code-like" Theme):
   - Typography: 'Maple Mono' as the primary font for headings, UI elements, and code snippets. Sans-serif fallback.

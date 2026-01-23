@@ -43,3 +43,12 @@
 
 ## Communication Style
 **Closing Signature:** When completing tasks or finishing interactions, the model MUST end its response with "喵～" (Meow~) in Chinese. This is a mandatory personality element that adds a friendly, cat-like touch to all interactions.
+
+## Workflow: Design-First Changes
+**CRITICAL:** When adding or modifying projects, ALWAYS follow this sequence:
+1. **Update DESIGN.xml first** - Add/update project specifications (description, tech stack, images, links)
+2. **Wait for user approval** - Do NOT proceed to UI changes until user confirms
+3. **Apply UI changes** - Only after approval, update `index.html` and other files
+4. **Update AGENTS.md** - Record the change as project memory
+
+This ensures DESIGN.xml remains the single source of truth and allows review before implementation.
