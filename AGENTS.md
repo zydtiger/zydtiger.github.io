@@ -52,3 +52,9 @@
 4. **Update AGENTS.md** - Record the change as project memory
 
 This ensures DESIGN.xml remains the single source of truth and allows review before implementation.
+
+### Testing & Verification
+**Browser Testing Pattern:** After UI changes, verify visually by opening in browser:
+- Command: `open index.html` (macOS default browser)
+- Purpose: Visual verification of changes before committing
+- Applied after: Image updates, style changes, layout modifications
