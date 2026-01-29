@@ -65,7 +65,7 @@ h1, h2, h3 {
 .code-title {
   font-size: 2rem;
   color: var(--text-main);
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .code-title .prompt {
@@ -89,7 +89,7 @@ h1, h2, h3 {
   border-radius: 12px;
   border: 4px solid var(--primary);
   padding: 4px; /* Gap between border and image */
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   overflow: hidden;
 }
 
@@ -105,7 +105,7 @@ h1, h2, h3 {
   font-size: 1.1rem;
   color: var(--text-muted);
   max-width: 600px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: left; /* Look like code comments */
 }
 
@@ -133,6 +133,55 @@ h1, h2, h3 {
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+/* --- Scroll Indicator --- */
+.scroll-indicator {
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.scroll-indicator.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scroll-arrow {
+  font-size: 2.5rem;
+  color: var(--primary);
+  line-height: 1;
+  animation: scrollArrowBounce 2s ease-in-out infinite;
+}
+
+@keyframes scrollArrowBounce {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(15px);
+    opacity: 0.3;
+  }
+}
+
+.scroll-arrow-text {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  animation: scrollTextFade 2s ease-in-out infinite;
+}
+
+@keyframes scrollTextFade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
 }
 
 /* --- Projects Section --- */

@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   initScrollAnimations();
   initSliders();
+  initScrollIndicator();
 });
 
 /* --- Scroll Animations --- */
@@ -82,3 +83,22 @@ function showSlide(n, sliderId) {
     dots[n - 1].classList.add("active");
   }
 }
+
+/* --- Scroll Indicator Visibility --- */
+function initScrollIndicator() {
+  const scrollIndicator = document.getElementById('scrollIndicator');
+  if (!scrollIndicator) return;
+
+  let hasScrolled = false;
+
+  window.addEventListener('scroll', () => {
+    if (!hasScrolled && window.scrollY > 10) {
+      scrollIndicator.classList.add('hidden');
+      hasScrolled = true;
+    } else if (hasScrolled && window.scrollY <= 10) {
+      scrollIndicator.classList.remove('hidden');
+      hasScrolled = false;
+    }
+  });
+}
+
