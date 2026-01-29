@@ -34,7 +34,10 @@
   - Project: B-Player - Desktop Music Player
   - Description: Music player based on Bilibili — A modern desktop music player with library management, playlist support, and seamless music importing from web sources
   - Tech Stack: Electron, React, TypeScript, Redux Toolkit, SQLite, yt-dlp, Tailwind CSS, Vite
-  - Images: Placeholder images (to be replaced with actual screenshots)
+  - Images: Load from https://github.com/zydtiger/b-player raw repository (v0.1.0 tag):
+    - Library View: https://raw.githubusercontent.com/zydtiger/b-player/v0.1.0/demo/0.1.0/library.png
+    - Playlist Gallery: https://raw.githubusercontent.com/zydtiger/b-player/v0.1.0/demo/0.1.0/playlist.png
+    - Play Queue: https://raw.githubusercontent.com/zydtiger/b-player/v0.1.0/demo/0.1.0/queue.png
   - Link: https://github.com/zydtiger/b-player
 
   Card 4: Knowledge Tree Tauri App

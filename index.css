@@ -191,7 +191,7 @@ h1, h2, h3 {
 .slider {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 75%; /* 4:3 Aspect Ratio (taller) */
   background: #e2e8f0;
   overflow: hidden;
 }
