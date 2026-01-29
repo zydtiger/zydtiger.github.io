@@ -104,7 +104,7 @@ h1, h2, h3 {
 .bio {
   font-size: 1.1rem;
   color: var(--text-muted);
-  max-width: 600px;
+  max-width: 800px;
   margin-bottom: 1rem;
   text-align: left; /* Look like code comments */
 }
