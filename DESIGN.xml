@@ -50,6 +50,14 @@
     - Note View Demo: https://raw.githubusercontent.com/zydtiger/LearnForge/dev/.github/note-view-demo.png
   - Link: https://github.com/zydtiger/LearnForge
 
+  Card 5: YoClaw
+  - Project: yoclaw_agent
+  - Description: AI agent project with always-on assistants and workflow automation capabilities.
+  - Tech Stack: AI Agent, Skill, Automation, Integration, Bot
+  - Images:
+    - ArXiv Preview: assets/yoclaw_arxiv.png
+  - Link: https://github.com/zydtiger/yoclaw
+
   Design System ("Code-like" Theme):
   - Typography: 'Maple Mono' as the primary font for headings, UI elements, and code snippets. Sans-serif fallback.
   - Headings: Prefixed with a primary-colored '$' and formatted in snake_case (e.g., `$ about_me`, `$ my_projects`).
