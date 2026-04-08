@@ -52,7 +52,7 @@
 
   Card 5: YoClaw
   - Project: yoclaw_agent
-  - Description: AI agent project with always-on assistants and workflow automation capabilities.
+  - Description: Telegram-first LLM agent written in Rust with OpenAI-compatible chat and embedding backends, tool calling, a persistent task queue, and semantic memory stored in SQLite with sqlite-vec.
   - Tech Stack: AI Agent, Skill, Automation, Integration, Bot
   - Images:
     - ArXiv Preview: assets/yoclaw_arxiv.png
@@ -60,7 +60,7 @@
 
   Card 6: Hyperliquid CLI
   - Project: hyperliquid_cli
-  - Description: Terminal-first Hyperliquid CLI project with a focused PnL TUI demo.
+  - Description: Comprehensive Hyperliquid trading system with both CLI and REST API interfaces for executing smart orders, monitoring positions and balances, and managing trading workflows through an interactive terminal experience.
   - Tech Stack: CLI, TUI, Trading Tools
   - Images:
     - PnL TUI Demo: assets/pnl_tui.png
