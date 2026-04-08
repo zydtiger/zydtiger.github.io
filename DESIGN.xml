@@ -58,6 +58,14 @@
     - ArXiv Preview: assets/yoclaw_arxiv.png
   - Link: https://github.com/zydtiger/yoclaw
 
+  Card 6: Hyperliquid CLI
+  - Project: hyperliquid_cli
+  - Description: Terminal-first Hyperliquid CLI project with a focused PnL TUI demo.
+  - Tech Stack: CLI, TUI, Trading Tools
+  - Images:
+    - PnL TUI Demo: assets/pnl_tui.png
+  - Link: https://github.com/zydtiger/hyperliquid-cli
+
   Design System ("Code-like" Theme):
   - Typography: 'Maple Mono' as the primary font for headings, UI elements, and code snippets. Sans-serif fallback.
   - Headings: Prefixed with a primary-colored '$' and formatted in snake_case (e.g., `$ about_me`, `$ my_projects`).

@@ -35,6 +35,7 @@
     - Grid layout.
     - Custom Vanilla JS Image Carousel (Logic in `index.js`, styles in `index.css`).
     - Scroll reveal animations using `IntersectionObserver`.
+    - Current last card is `hyperliquid_cli`, using `assets/pnl_tui.png` as its sole demo image.
 
 ### Constraints
 - Mobile-first responsive design.
